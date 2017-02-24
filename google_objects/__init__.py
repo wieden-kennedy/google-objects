@@ -79,6 +79,6 @@ class GoogleObject(object):
         return return_dict
 
 
-from .drive import DriveAPI
+from .drive import *
 from .sheets import SheetsAPI
-from .slides import SlidesAPI
+from .slides import *
